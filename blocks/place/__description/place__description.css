@@ -1,0 +1,5 @@
+@media (max-width: 750px) {
+  .place__description {
+    margin: 0 16px;
+  }
+}
