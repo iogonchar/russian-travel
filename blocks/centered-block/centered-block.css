@@ -1,0 +1,10 @@
+.centered-block {
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .centered-block {
+    max-width: 928px;
+  }
+}

@@ -1,0 +1,11 @@
+.lead {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #fff;
+  padding-top: 56px;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    padding-top: 48px;
+  }
+}
