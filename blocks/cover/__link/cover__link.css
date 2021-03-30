@@ -1,0 +1,47 @@
+.cover__link {
+  display: block;
+  position: relative;
+  background-image: url(../../../images/cover-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: inherit;
+  text-decoration: none;
+  padding: 245px 0px;
+  z-index: 1;
+}
+
+.cover__link::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2a2c2f;
+  opacity: .3;
+  z-index: -1;
+  transition: opacity .5s;
+}
+
+.cover__link:hover::after {
+  opacity: .8;
+}
+
+@media (max-width: 1024px) {
+  .cover__link {
+    padding: 195px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__link {
+    padding: 115px 0px;
+  }
+}
+
+@media (max-width: 420px) {
+  .cover__link {
+    padding: 33px 0px;
+  }
+}
