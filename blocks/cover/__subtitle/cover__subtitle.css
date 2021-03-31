@@ -3,8 +3,8 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
-  white-space: pre-line;
-  margin: 32px 0 0;
+  margin: 32px auto 0;
+  max-width: 360px;
 }
 
 @media (max-width: 600px) {
@@ -12,5 +12,6 @@
     margin-top: 16px;
     font-size: 14px;
     line-height: 1.14;
+    max-width: 288px;
   }
 }
