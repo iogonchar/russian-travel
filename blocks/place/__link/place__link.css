@@ -4,4 +4,9 @@
   line-height: 1.22;
   text-decoration: underline;
   color: inherit;
+  transition: opacity .3s;
+}
+
+.place__link:hover {
+  opacity: .8;
 }
