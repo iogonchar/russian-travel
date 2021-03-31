@@ -5,6 +5,7 @@
 @import url(../vendor/fonts/fonts.css);
 
 /* default styles */
+@import url(../blocks/body/body.css);
 @import url(../blocks/centered-block/centered-block.css);
 
 /* page default styles */
